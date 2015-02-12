@@ -12,7 +12,7 @@ module.exports = function getQueryParam(queryParam, url) {
   var normalizedUrl = normalizeUrl(url)
 
   if (!isUrl(normalizedUrl)) {
-    throw new TypeError('get-query-param expected a url')
+    return
   }
 
   var parsed = queryString.parse(normalizedUrl.split('?')[1])

@@ -15,6 +15,7 @@ var getQueryParam = require('get-query-param');
 
 getQueryParam('a', 'https://foo.bar?a=hello');  // => 'hello'
 getQueryParam('b', 'https://foo.bar?a=hello');  // => undefined
+getQueryParam('b', 'https://foo.bar');          // => undefined
 ```
 
 ## License
