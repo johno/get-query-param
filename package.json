@@ -2,7 +2,7 @@
   "name": "get-query-param",
   "description": "Get a particular query param from a url.",
   "author": "John Otander",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,13 @@
     "type": "git",
     "url": "https://github.com/johnotander/get-query-param.git"
   },
-  "keywords": [],
+  "keywords": [
+    "query",
+    "params",
+    "query string",
+    "url params",
+    "url"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/johnotander/get-query-param/issues"
