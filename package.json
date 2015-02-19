@@ -2,7 +2,7 @@
   "name": "get-query-param",
   "description": "Get a particular query param from a url.",
   "author": "John Otander",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "test": "test"
