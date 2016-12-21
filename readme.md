@@ -1,4 +1,4 @@
-# get-query-param [![Build Status](https://secure.travis-ci.org/johnotander/get-query-param.svg?branch=master)](https://travis-ci.org/johnotander/get-query-param)
+# get-query-param [![Build Status](https://secure.travis-ci.org/johnotander/get-query-param.svg?branch=master)](https://travis-ci.org/johnotander/get-query-param) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Get a particular query param from a url.
 
