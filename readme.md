@@ -1,4 +1,4 @@
-# get-query-param [![Build Status](https://secure.travis-ci.org/johnotander/get-query-param.png?branch=master)](https://travis-ci.org/johnotander/get-query-param)
+# get-query-param [![Build Status](https://secure.travis-ci.org/johnotander/get-query-param.svg?branch=master)](https://travis-ci.org/johnotander/get-query-param)
 
 Get a particular query param from a url.
 
@@ -11,11 +11,12 @@ npm install --save get-query-param
 ## Usage
 
 ```javascript
-var getQueryParam = require('get-query-param');
+const getQueryParam = require('get-query-param')
 
-getQueryParam('a', 'https://foo.bar?a=hello');  // => 'hello'
-getQueryParam('b', 'https://foo.bar?a=hello');  // => undefined
-getQueryParam('b', 'https://foo.bar');          // => undefined
+getQueryParam('a', 'https://foo.bar?a=hello')  // => 'hello'
+getQueryParam('a', '/full/path?a=hello')       // => 'hello'
+getQueryParam('b', 'https://foo.bar?a=hello')  // => undefined
+getQueryParam('b', 'https://foo.bar')          // => undefined
 ```
 
 ## License
