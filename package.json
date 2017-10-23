@@ -18,10 +18,10 @@
   "license": "MIT",
   "dependencies": {
     "is-url": "^1.2.2",
-    "normalize-url": "^1.8.0",
-    "query-string": "^4.2.3"
+    "normalize-url": "^1.9.1",
+    "query-string": "^5.0.0"
   },
   "devDependencies": {
-    "ava": "^0.17.0"
+    "ava": "^0.22.0"
   }
 }
