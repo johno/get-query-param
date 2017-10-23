@@ -19,6 +19,12 @@ test('returns a query param when a relative path is passed', t => {
   t.is(result, 'bar')
 })
 
+test('returns a query param when window.location.search is passed', t => {
+  const result = getQueryParam('foo', '?a=hello&foo=bar&baz=buzz')
+
+  t.is(result, 'bar')
+})
+
 test('returns a falsy value when the query param does not exist', t => {
   const result = getQueryParam('b', 'http://foobar.com?a=hello')
 
