@@ -9,7 +9,7 @@ module.exports = function(queryParam, url) {
     throw new TypeError('get-query-param expected two strings')
   }
 
-  var fullUrl = /^\//.test(url) ? `foo.bar${url}` : url
+  var fullUrl = /^[\/\?]/.test(url) ? `foo.bar${url}` : url
   var normalizedUrl = normalizeUrl(fullUrl)
 
   if (!isUrl(normalizedUrl)) { return }
